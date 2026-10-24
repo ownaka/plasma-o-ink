@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="176" viewBox="0 0 136 176">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#e6e1d5;}.ColorScheme-NegativeText{color:#b0675f;}.ColorScheme-Highlight{color:#689d6a;}</style>
+<g id="background-vertical-topleft"><rect x="0" y="0" width="2" height="2" fill="none"/></g>
+<g id="background-vertical-topright"><rect x="22" y="0" width="2" height="2" fill="none"/></g>
+<g id="background-vertical-bottomleft"><rect x="0" y="22" width="2" height="2" fill="none"/></g>
+<g id="background-vertical-bottomright"><rect x="22" y="22" width="2" height="2" fill="none"/></g>
+<g id="background-vertical-top"><rect x="2" y="0" width="20" height="2" fill="none"/></g>
+<g id="background-vertical-bottom"><rect x="2" y="22" width="20" height="2" fill="none"/></g>
+<g id="background-vertical-left"><rect x="0" y="2" width="2" height="20" fill="none"/></g>
+<g id="background-vertical-right"><rect x="22" y="2" width="2" height="20" fill="none"/></g>
+<rect id="background-vertical-center" x="2" y="2" width="20" height="20" fill="none" />
+<rect id="background-vertical-hint-top-margin" x="60" y="2" width="2" height="2" fill="none" />
+<rect id="background-vertical-hint-bottom-margin" x="60" y="2" width="2" height="2" fill="none" />
+<rect id="background-vertical-hint-left-margin" x="60" y="2" width="2" height="2" fill="none" />
+<rect id="background-vertical-hint-right-margin" x="60" y="2" width="2" height="2" fill="none" />
+<g id="background-horizontal-topleft"><rect x="0" y="34" width="2" height="2" fill="none"/></g>
+<g id="background-horizontal-topright"><rect x="22" y="34" width="2" height="2" fill="none"/></g>
+<g id="background-horizontal-bottomleft"><rect x="0" y="56" width="2" height="2" fill="none"/></g>
+<g id="background-horizontal-bottomright"><rect x="22" y="56" width="2" height="2" fill="none"/></g>
+<g id="background-horizontal-top"><rect x="2" y="34" width="20" height="2" fill="none"/></g>
+<g id="background-horizontal-bottom"><rect x="2" y="56" width="20" height="2" fill="none"/></g>
+<g id="background-horizontal-left"><rect x="0" y="36" width="2" height="20" fill="none"/></g>
+<g id="background-horizontal-right"><rect x="22" y="36" width="2" height="20" fill="none"/></g>
+<rect id="background-horizontal-center" x="2" y="36" width="20" height="20" fill="none" />
+<rect id="background-horizontal-hint-top-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="background-horizontal-hint-bottom-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="background-horizontal-hint-left-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="background-horizontal-hint-right-margin" x="60" y="36" width="2" height="2" fill="none" />
+<g id="slider-topleft"><rect x="0" y="68" width="2" height="2" fill="#524f46"/></g>
+<g id="slider-topright"><rect x="22" y="68" width="2" height="2" fill="#524f46"/></g>
+<g id="slider-bottomleft"><rect x="0" y="90" width="2" height="2" fill="#524f46"/></g>
+<g id="slider-bottomright"><rect x="22" y="90" width="2" height="2" fill="#524f46"/></g>
+<g id="slider-top"><rect x="2" y="68" width="20" height="2" fill="#524f46"/></g>
+<g id="slider-bottom"><rect x="2" y="90" width="20" height="2" fill="#524f46"/></g>
+<g id="slider-left"><rect x="0" y="70" width="2" height="20" fill="#524f46"/></g>
+<g id="slider-right"><rect x="22" y="70" width="2" height="20" fill="#524f46"/></g>
+<rect id="slider-center" x="2" y="70" width="20" height="20" fill="#524f46" />
+<rect id="slider-hint-top-margin" x="60" y="70" width="2" height="2" fill="none" />
+<rect id="slider-hint-bottom-margin" x="60" y="70" width="2" height="2" fill="none" />
+<rect id="slider-hint-left-margin" x="60" y="70" width="2" height="2" fill="none" />
+<rect id="slider-hint-right-margin" x="60" y="70" width="2" height="2" fill="none" />
+<g id="mouseover-slider-topleft"><rect x="0" y="102" width="2" height="2" fill="#888477"/></g>
+<g id="mouseover-slider-topright"><rect x="22" y="102" width="2" height="2" fill="#888477"/></g>
+<g id="mouseover-slider-bottomleft"><rect x="0" y="124" width="2" height="2" fill="#888477"/></g>
+<g id="mouseover-slider-bottomright"><rect x="22" y="124" width="2" height="2" fill="#888477"/></g>
+<g id="mouseover-slider-top"><rect x="2" y="102" width="20" height="2" fill="#888477"/></g>
+<g id="mouseover-slider-bottom"><rect x="2" y="124" width="20" height="2" fill="#888477"/></g>
+<g id="mouseover-slider-left"><rect x="0" y="104" width="2" height="20" fill="#888477"/></g>
+<g id="mouseover-slider-right"><rect x="22" y="104" width="2" height="20" fill="#888477"/></g>
+<rect id="mouseover-slider-center" x="2" y="104" width="20" height="20" fill="#888477" />
+<rect id="mouseover-slider-hint-top-margin" x="60" y="104" width="2" height="2" fill="none" />
+<rect id="mouseover-slider-hint-bottom-margin" x="60" y="104" width="2" height="2" fill="none" />
+<rect id="mouseover-slider-hint-left-margin" x="60" y="104" width="2" height="2" fill="none" />
+<rect id="mouseover-slider-hint-right-margin" x="60" y="104" width="2" height="2" fill="none" />
+<rect id="hint-scrollbar-size" x="120" y="0" width="6" height="6" fill="none"/>
+</svg>

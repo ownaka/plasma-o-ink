@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="192" viewBox="0 0 120 192">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#e6e1d5;}.ColorScheme-NegativeText{color:#b0675f;}.ColorScheme-Highlight{color:#689d6a;}</style>
+<g id="north-active-tab-topleft"><rect x="0" y="0" width="4" height="4" fill="none"/></g>
+<g id="north-active-tab-topright"><rect x="24" y="0" width="4" height="4" fill="none"/></g>
+<g id="north-active-tab-bottomleft"><rect x="0" y="24" width="4" height="4" fill="none"/></g>
+<g id="north-active-tab-bottomright"><rect x="24" y="24" width="4" height="4" fill="none"/></g>
+<g id="north-active-tab-top"><rect x="4" y="0" width="20" height="4" fill="none"/></g>
+<g id="north-active-tab-bottom"><rect x="4" y="24" width="20" height="4" fill="none"/><rect x="4" y="26" width="20" height="2" fill="#689d6a"/></g>
+<g id="north-active-tab-left"><rect x="0" y="4" width="4" height="20" fill="none"/></g>
+<g id="north-active-tab-right"><rect x="24" y="4" width="4" height="20" fill="none"/></g>
+<rect id="north-active-tab-center" x="4" y="4" width="20" height="20" fill="none" />
+<rect id="north-active-tab-hint-top-margin" x="60" y="2" width="2" height="4" fill="none" />
+<rect id="north-active-tab-hint-bottom-margin" x="60" y="2" width="2" height="4" fill="none" />
+<rect id="north-active-tab-hint-left-margin" x="60" y="2" width="4" height="2" fill="none" />
+<rect id="north-active-tab-hint-right-margin" x="60" y="2" width="4" height="2" fill="none" />
+<g id="south-active-tab-topleft"><rect x="0" y="38" width="4" height="4" fill="none"/></g>
+<g id="south-active-tab-topright"><rect x="24" y="38" width="4" height="4" fill="none"/></g>
+<g id="south-active-tab-bottomleft"><rect x="0" y="62" width="4" height="4" fill="none"/></g>
+<g id="south-active-tab-bottomright"><rect x="24" y="62" width="4" height="4" fill="none"/></g>
+<g id="south-active-tab-top"><rect x="4" y="38" width="20" height="4" fill="none"/><rect x="4" y="38" width="20" height="2" fill="#689d6a"/></g>
+<g id="south-active-tab-bottom"><rect x="4" y="62" width="20" height="4" fill="none"/></g>
+<g id="south-active-tab-left"><rect x="0" y="42" width="4" height="20" fill="none"/></g>
+<g id="south-active-tab-right"><rect x="24" y="42" width="4" height="20" fill="none"/></g>
+<rect id="south-active-tab-center" x="4" y="42" width="20" height="20" fill="none" />
+<rect id="south-active-tab-hint-top-margin" x="60" y="40" width="2" height="4" fill="none" />
+<rect id="south-active-tab-hint-bottom-margin" x="60" y="40" width="2" height="4" fill="none" />
+<rect id="south-active-tab-hint-left-margin" x="60" y="40" width="4" height="2" fill="none" />
+<rect id="south-active-tab-hint-right-margin" x="60" y="40" width="4" height="2" fill="none" />
+<g id="west-active-tab-topleft"><rect x="0" y="76" width="4" height="4" fill="none"/></g>
+<g id="west-active-tab-topright"><rect x="24" y="76" width="4" height="4" fill="none"/></g>
+<g id="west-active-tab-bottomleft"><rect x="0" y="100" width="4" height="4" fill="none"/></g>
+<g id="west-active-tab-bottomright"><rect x="24" y="100" width="4" height="4" fill="none"/></g>
+<g id="west-active-tab-top"><rect x="4" y="76" width="20" height="4" fill="none"/></g>
+<g id="west-active-tab-bottom"><rect x="4" y="100" width="20" height="4" fill="none"/></g>
+<g id="west-active-tab-left"><rect x="0" y="80" width="4" height="20" fill="none"/></g>
+<g id="west-active-tab-right"><rect x="24" y="80" width="4" height="20" fill="none"/><rect x="26" y="80" width="2" height="20" fill="#689d6a"/></g>
+<rect id="west-active-tab-center" x="4" y="80" width="20" height="20" fill="none" />
+<rect id="west-active-tab-hint-top-margin" x="60" y="78" width="2" height="4" fill="none" />
+<rect id="west-active-tab-hint-bottom-margin" x="60" y="78" width="2" height="4" fill="none" />
+<rect id="west-active-tab-hint-left-margin" x="60" y="78" width="4" height="2" fill="none" />
+<rect id="west-active-tab-hint-right-margin" x="60" y="78" width="4" height="2" fill="none" />
+<g id="east-active-tab-topleft"><rect x="0" y="114" width="4" height="4" fill="none"/></g>
+<g id="east-active-tab-topright"><rect x="24" y="114" width="4" height="4" fill="none"/></g>
+<g id="east-active-tab-bottomleft"><rect x="0" y="138" width="4" height="4" fill="none"/></g>
+<g id="east-active-tab-bottomright"><rect x="24" y="138" width="4" height="4" fill="none"/></g>
+<g id="east-active-tab-top"><rect x="4" y="114" width="20" height="4" fill="none"/></g>
+<g id="east-active-tab-bottom"><rect x="4" y="138" width="20" height="4" fill="none"/></g>
+<g id="east-active-tab-left"><rect x="0" y="118" width="4" height="20" fill="none"/><rect x="0" y="118" width="2" height="20" fill="#689d6a"/></g>
+<g id="east-active-tab-right"><rect x="24" y="118" width="4" height="20" fill="none"/></g>
+<rect id="east-active-tab-center" x="4" y="118" width="20" height="20" fill="none" />
+<rect id="east-active-tab-hint-top-margin" x="60" y="116" width="2" height="4" fill="none" />
+<rect id="east-active-tab-hint-bottom-margin" x="60" y="116" width="2" height="4" fill="none" />
+<rect id="east-active-tab-hint-left-margin" x="60" y="116" width="4" height="2" fill="none" />
+<rect id="east-active-tab-hint-right-margin" x="60" y="116" width="4" height="2" fill="none" />
+</svg>

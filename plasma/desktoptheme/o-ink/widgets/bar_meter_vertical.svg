@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="108" viewBox="0 0 134 108">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#e6e1d5;}.ColorScheme-NegativeText{color:#b0675f;}.ColorScheme-Highlight{color:#689d6a;}</style>
+<g id="bar-inactive-topleft"><rect x="0" y="0" width="2" height="2" fill="#2e2e2e"/></g>
+<g id="bar-inactive-topright"><rect x="22" y="0" width="2" height="2" fill="#2e2e2e"/></g>
+<g id="bar-inactive-bottomleft"><rect x="0" y="22" width="2" height="2" fill="#2e2e2e"/></g>
+<g id="bar-inactive-bottomright"><rect x="22" y="22" width="2" height="2" fill="#2e2e2e"/></g>
+<g id="bar-inactive-top"><rect x="2" y="0" width="20" height="2" fill="#2e2e2e"/></g>
+<g id="bar-inactive-bottom"><rect x="2" y="22" width="20" height="2" fill="#2e2e2e"/></g>
+<g id="bar-inactive-left"><rect x="0" y="2" width="2" height="20" fill="#2e2e2e"/></g>
+<g id="bar-inactive-right"><rect x="22" y="2" width="2" height="20" fill="#2e2e2e"/></g>
+<rect id="bar-inactive-center" x="2" y="2" width="20" height="20" fill="#2e2e2e" />
+<rect id="bar-inactive-hint-top-margin" x="60" y="2" width="2" height="2" fill="none" />
+<rect id="bar-inactive-hint-bottom-margin" x="60" y="2" width="2" height="2" fill="none" />
+<rect id="bar-inactive-hint-left-margin" x="60" y="2" width="2" height="2" fill="none" />
+<rect id="bar-inactive-hint-right-margin" x="60" y="2" width="2" height="2" fill="none" />
+<g id="bar-active-topleft"><rect x="0" y="34" width="2" height="2" fill="#689d6a"/></g>
+<g id="bar-active-topright"><rect x="22" y="34" width="2" height="2" fill="#689d6a"/></g>
+<g id="bar-active-bottomleft"><rect x="0" y="56" width="2" height="2" fill="#689d6a"/></g>
+<g id="bar-active-bottomright"><rect x="22" y="56" width="2" height="2" fill="#689d6a"/></g>
+<g id="bar-active-top"><rect x="2" y="34" width="20" height="2" fill="#689d6a"/></g>
+<g id="bar-active-bottom"><rect x="2" y="56" width="20" height="2" fill="#689d6a"/></g>
+<g id="bar-active-left"><rect x="0" y="36" width="2" height="20" fill="#689d6a"/></g>
+<g id="bar-active-right"><rect x="22" y="36" width="2" height="20" fill="#689d6a"/></g>
+<rect id="bar-active-center" x="2" y="36" width="20" height="20" fill="#689d6a" />
+<rect id="bar-active-hint-top-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="bar-active-hint-bottom-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="bar-active-hint-left-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="bar-active-hint-right-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="hint-bar-size" x="120" y="0" width="4" height="4" fill="none"/>
+</svg>

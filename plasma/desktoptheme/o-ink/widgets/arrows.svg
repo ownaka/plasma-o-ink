@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="206" height="40" viewBox="0 0 206 40">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#e6e1d5;}.ColorScheme-NegativeText{color:#b0675f;}.ColorScheme-Highlight{color:#689d6a;}</style>
+<g id="down-arrow"><rect x="120" y="0" width="16" height="16" fill="none"/><path transform="translate(120 0)" d="M4 6 8 10 12 6" class="ColorScheme-Text" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1.5"/></g>
+<g id="up-arrow"><rect x="140" y="0" width="16" height="16" fill="none"/><path transform="translate(140 0)" d="M4 10 8 6 12 10" class="ColorScheme-Text" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1.5"/></g>
+<g id="left-arrow"><rect x="160" y="0" width="16" height="16" fill="none"/><path transform="translate(160 0)" d="M10 4 6 8 10 12" class="ColorScheme-Text" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1.5"/></g>
+<g id="right-arrow"><rect x="180" y="0" width="16" height="16" fill="none"/><path transform="translate(180 0)" d="M6 4 10 8 6 12" class="ColorScheme-Text" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1.5"/></g>
+</svg>

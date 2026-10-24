@@ -1,0 +1,325 @@
+/**
+ * @name O-Ink
+ * @author ownaka
+ * @version 1.0.0
+ * @description Tinta bege sobre papel escuro, Commit Mono, cantos retos e um único verde de destaque. Baseado em ownaka.net.
+ * @website https://ownaka.net
+ * @source https://github.com/ownaka
+ */
+
+/* ---------- ajustes rápidos ---------- */
+:root {
+  --oink-font: "Commit Mono", ui-monospace, "JetBrains Mono", monospace;
+  --oink-dots: 0.06;          /* intensidade dos pontinhos de fundo */
+  --oink-avatar-radius: 0;    /* 0 = avatares quadrados · 50% = redondos */
+
+  --oink-page: #0c0c0c;
+  --oink-card: #141414;
+  --oink-hover: #181818;
+  --oink-surface: #1a1a1a;
+  --oink-raised: #202020;
+  --oink-border: #222222;
+  --oink-border-strong: #2e2e2e;
+  --oink-text: #e6e1d5;
+  --oink-muted: #888477;
+  --oink-faint: #524f46;
+  --oink-accent: #c8c2b4;
+  --oink-green: #689d6a;
+  --oink-green-soft: rgba(104, 157, 106, 0.14);
+  --oink-red: #b0675f;
+  --oink-amber: #b89a5e;
+  --oink-blue: #7895a8;
+}
+
+/* ---------- paleta aplicada às variáveis do Discord ---------- */
+.theme-dark,
+.theme-darker,
+.theme-midnight,
+.visual-refresh .theme-dark {
+  /* fundos (nomes antigos e da interface nova) */
+  --background-primary: var(--oink-page);
+  --background-secondary: var(--oink-page);
+  --background-secondary-alt: var(--oink-card);
+  --background-tertiary: var(--oink-page);
+  --background-floating: var(--oink-card);
+  --background-nested-floating: var(--oink-card);
+  --background-accent: var(--oink-surface);
+  --background-message-hover: var(--oink-hover);
+  --background-modifier-hover: var(--oink-hover);
+  --background-modifier-active: var(--oink-surface);
+  --background-modifier-selected: var(--oink-surface);
+  --background-modifier-accent: var(--oink-border);
+  --background-mentioned: var(--oink-green-soft);
+  --background-mentioned-hover: rgba(104, 157, 106, 0.2);
+  --background-base-lowest: var(--oink-page);
+  --background-base-lower: var(--oink-page);
+  --background-base-low: var(--oink-page);
+  --background-surface-high: var(--oink-card);
+  --background-surface-higher: var(--oink-card);
+  --background-surface-highest: var(--oink-surface);
+  --background-mod-subtle: var(--oink-hover);
+  --background-mod-normal: var(--oink-surface);
+  --background-mod-strong: var(--oink-raised);
+  --chat-background: var(--oink-page);
+  --chat-background-default: var(--oink-page);
+  --channeltextarea-background: var(--oink-card);
+  --modal-background: var(--oink-card);
+  --modal-footer-background: var(--oink-card);
+  --input-background: var(--oink-surface);
+  --bg-overlay-chat: var(--oink-page);
+  --bg-overlay-app-frame: var(--oink-page);
+  --app-frame-background: var(--oink-page);
+
+  /* texto */
+  --text-normal: var(--oink-text);
+  --text-default: var(--oink-text);
+  --text-strong: #ffffff;
+  --text-muted: var(--oink-muted);
+  --text-subtle: var(--oink-muted);
+  --text-link: var(--oink-text);
+  --text-positive: var(--oink-green);
+  --text-warning: var(--oink-amber);
+  --text-danger: var(--oink-red);
+  --header-primary: var(--oink-text);
+  --header-secondary: var(--oink-muted);
+  --channels-default: var(--oink-muted);
+  --channel-icon: var(--oink-faint);
+
+  /* interação */
+  --interactive-normal: var(--oink-muted);
+  --interactive-hover: var(--oink-text);
+  --interactive-active: #ffffff;
+  --interactive-muted: var(--oink-faint);
+  --icon-default: var(--oink-muted);
+  --icon-strong: var(--oink-text);
+
+  /* bordas e destaque */
+  --border-subtle: var(--oink-border);
+  --border-normal: var(--oink-border-strong);
+  --border-strong: var(--oink-muted);
+  --brand-500: var(--oink-green);
+  --brand-560: #5a8a5c;
+  --brand-600: #4f7a51;
+  --brand-experiment: var(--oink-green);
+  --brand-experiment-560: #5a8a5c;
+  --control-brand-foreground: var(--oink-green);
+  --status-positive: var(--oink-green);
+  --status-warning: var(--oink-amber);
+  --status-danger: var(--oink-red);
+  --scrollbar-thin-thumb: var(--oink-border-strong);
+  --scrollbar-auto-thumb: var(--oink-border-strong);
+  --scrollbar-auto-track: transparent;
+
+  /* forma */
+  --radius-xs: 0;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+  --radius-round: 0;
+
+  --font-primary: var(--oink-font);
+  --font-display: var(--oink-font);
+  --font-headline: var(--oink-font);
+  --font-code: var(--oink-font);
+}
+
+/* ---------- fonte em tudo ---------- */
+body,
+input,
+textarea,
+button,
+code,
+pre {
+  font-family: var(--oink-font) !important;
+  letter-spacing: -0.01em;
+}
+
+/* ---------- cantos retos (avatares seguem o ajuste lá em cima) ---------- */
+*:not([class*="avatar"]):not([class*="Avatar"]):not([class*="status"]):not([class*="mask"]):not(svg):not(svg *) {
+  border-radius: 0 !important;
+}
+[class*="avatar"] img,
+[class*="avatar"] foreignObject,
+[class*="avatarDecoration"] {
+  border-radius: var(--oink-avatar-radius) !important;
+}
+
+/* ---------- ícones de servidor quadrados (o Discord arredonda via máscara SVG) ---------- */
+[class*="guilds_"] foreignObject,
+[class*="guilds_"] svg [mask],
+[class*="guilds_"] [class*="folder"],
+[class*="guilds_"] [class*="expandedFolderBackground"] {
+  mask: none !important;
+  -webkit-mask: none !important;
+  border-radius: 0 !important;
+}
+[class*="guilds_"] [class*="lowerBadge"],
+[class*="guilds_"] [class*="upperBadge"] {
+  border: 2px solid var(--oink-page) !important;
+}
+
+/* ---------- pontinhos de fundo no chat ---------- */
+[class*="chatContent"],
+[class*="chat_"] > [class*="content"] {
+  position: relative;
+}
+[class*="chatContent"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, var(--oink-text) 1px, transparent 1px);
+  background-size: 24px 24px;
+  opacity: var(--oink-dots);
+  z-index: 0;
+}
+[class*="chatContent"] > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- divisórias finas, como a sidebar do site ---------- */
+[class*="sidebar_"],
+[class*="guilds_"] {
+  border-right: 1px solid var(--oink-border) !important;
+}
+[class*="title_"][class*="container_"],
+section[class*="title_"] {
+  border-bottom: 1px solid var(--oink-border) !important;
+  box-shadow: none !important;
+}
+[class*="membersWrap"],
+[class*="members_"] {
+  border-left: 1px solid var(--oink-border) !important;
+}
+
+/* ---------- servidor e canal selecionados: o indicador verde do site ---------- */
+[class*="pill_"] [class*="item_"] {
+  background-color: var(--oink-green) !important;
+  width: 4px !important;
+}
+[class*="modeSelected"],
+[class*="selected_"][class*="wrapper_"] {
+  box-shadow: inset 2px 0 0 var(--oink-green);
+}
+[class*="modeSelected"] [class*="name_"]::before {
+  content: "› ";
+  color: var(--oink-green);
+}
+
+/* ---------- caixa de mensagem e campos ---------- */
+[class*="channelTextArea"] [class*="scrollableContainer"],
+[class*="channelTextArea"] > [class*="inner_"] {
+  background-color: var(--oink-card) !important;
+  border: 1px solid var(--oink-border-strong) !important;
+}
+[class*="channelTextArea"]:focus-within [class*="scrollableContainer"] {
+  border-color: var(--oink-muted) !important;
+}
+input[class*="input"],
+[class*="searchBar"] {
+  border: 1px solid var(--oink-border) !important;
+}
+
+/* ---------- menções e respostas ---------- */
+[class*="mentioned_"] {
+  box-shadow: inset 2px 0 0 var(--oink-green) !important;
+}
+[class*="mentioned_"]::before {
+  background: var(--oink-green) !important;
+}
+.mention,
+[class*="mention"][class*="interactive"] {
+  background: var(--oink-green-soft) !important;
+  color: var(--oink-green) !important;
+}
+
+/* ---------- código, citações e embeds como os cards do site ---------- */
+code.inline,
+[class*="markup"] code {
+  background: var(--oink-surface) !important;
+  border: 1px solid var(--oink-border) !important;
+}
+[class*="markup"] pre,
+[class*="codeContainer"] {
+  background: var(--oink-card) !important;
+  border: 1px solid var(--oink-border) !important;
+}
+[class*="blockquoteDivider"] {
+  background: var(--oink-muted) !important;
+  width: 2px !important;
+}
+[class*="embedFull"] {
+  background: var(--oink-card) !important;
+  border: 1px solid var(--oink-border) !important;
+  border-left: 2px solid var(--oink-green) !important;
+}
+
+/* ---------- menus, popups e janelas ---------- */
+[class*="menu_"],
+[class*="popout"],
+[class*="modal"][role="dialog"],
+[class*="layerContainer"] [class*="root_"] {
+  background: var(--oink-card) !important;
+  border: 1px solid var(--oink-border-strong) !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4) !important;
+}
+[class*="menu_"] [class*="focused"] {
+  background: var(--oink-surface) !important;
+  color: var(--oink-text) !important;
+  box-shadow: inset 2px 0 0 var(--oink-green);
+}
+[class*="tooltip_"] {
+  background: var(--oink-card) !important;
+  color: var(--oink-text) !important;
+  border: 1px solid var(--oink-border-strong) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+}
+[class*="tooltip_"] * {
+  color: var(--oink-text) !important;
+}
+[class*="tooltipPointer"] {
+  display: none !important;
+}
+
+/* ---------- botões ---------- */
+button[class*="colorBrand"]:not([class*="lookBlank"]):not([class*="lookLink"]),
+button[class*="brand"]:not([class*="lookBlank"]):not([class*="lookLink"]) {
+  background: var(--oink-text) !important;
+  color: var(--oink-page) !important;
+  border: 1px solid var(--oink-text) !important;
+}
+button[class*="colorBrand"]:not([class*="lookBlank"]):not([class*="lookLink"]):hover {
+  background: #ffffff !important;
+}
+
+/* botões do painel de usuário (mic, fone, config) ficam escuros */
+[class*="panels_"] button,
+[class*="panels_"] [role="button"] {
+  background: transparent !important;
+  color: var(--oink-muted) !important;
+}
+[class*="panels_"] button:hover,
+[class*="panels_"] [role="button"]:hover {
+  background: var(--oink-hover) !important;
+  color: var(--oink-text) !important;
+}
+
+/* ---------- barra de rolagem fina ---------- */
+::-webkit-scrollbar {
+  width: 5px !important;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--oink-border-strong) !important;
+  border: none !important;
+}
+
+/* ---------- imagens enviadas com o filtro E-Ink (desative apagando este bloco) ---------- */
+[class*="imageWrapper"] img {
+  filter: grayscale(100%) contrast(125%) brightness(95%) sepia(20%);
+  transition: filter 0.25s ease;
+}
+[class*="imageWrapper"]:hover img {
+  filter: none;
+}

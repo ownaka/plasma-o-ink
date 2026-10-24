@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="194" height="40" viewBox="0 0 194 40">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#e6e1d5;}.ColorScheme-NegativeText{color:#b0675f;}.ColorScheme-Highlight{color:#689d6a;}</style>
+<rect id="fill" x="120" y="0" width="16" height="16" fill="#689d6a" fill-opacity="0.3"/>
+<rect id="topleft" x="140" y="0" width="8" height="8" fill="#689d6a" fill-opacity="0.3"/>
+<rect id="topright" x="152" y="0" width="8" height="8" fill="#689d6a" fill-opacity="0.3"/>
+<rect id="bottomleft" x="164" y="0" width="8" height="8" fill="#689d6a" fill-opacity="0.3"/>
+<rect id="bottomright" x="176" y="0" width="8" height="8" fill="#689d6a" fill-opacity="0.3"/>
+</svg>

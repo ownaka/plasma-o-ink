@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="22" viewBox="0 0 120 22">
+<g id="active-center"><rect x="0" y="0" width="22" height="22" fill="none"/><rect x="6.5" y="6.5" width="9" height="9" fill="none" stroke="#e6e1d5" stroke-width="1.4"/></g>
+<g id="hover-center"><rect x="24" y="0" width="22" height="22" fill="#e6e1d5"/><rect x="30.5" y="6.5" width="9" height="9" fill="none" stroke="#0c0c0c" stroke-width="1.4"/></g>
+<g id="pressed-center"><rect x="48" y="0" width="22" height="22" fill="#689d6a"/><rect x="54.5" y="6.5" width="9" height="9" fill="none" stroke="#0c0c0c" stroke-width="1.4"/></g>
+<g id="inactive-center"><rect x="72" y="0" width="22" height="22" fill="none"/><rect x="78.5" y="6.5" width="9" height="9" fill="none" stroke="#888477" stroke-width="1.4"/></g>
+<g id="deactivated-center"><rect x="96" y="0" width="22" height="22" fill="none"/><rect x="102.5" y="6.5" width="9" height="9" fill="none" stroke="#524f46" stroke-width="1.4"/></g>
+</svg>

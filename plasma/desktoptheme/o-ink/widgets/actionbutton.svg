@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="62" viewBox="0 0 230 62">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#e6e1d5;}.ColorScheme-NegativeText{color:#b0675f;}.ColorScheme-Highlight{color:#689d6a;}</style>
+<g id="normal"><rect x="120" y="0" width="22" height="22" fill="#1a1a1a"/><path d="M120 0h22v22h-22z M121 1v20h20v-20z" fill="#2e2e2e" fill-rule="evenodd"/></g>
+<g id="hover"><rect x="146" y="0" width="22" height="22" fill="#202020"/><path d="M146 0h22v22h-22z M147 1v20h20v-20z" fill="#888477" fill-rule="evenodd"/></g>
+<g id="pressed"><rect x="172" y="0" width="22" height="22" fill="#1e261e"/><path d="M172 0h22v22h-22z M173 1v20h20v-20z" fill="#689d6a" fill-rule="evenodd"/></g>
+<g id="focus"><rect x="198" y="0" width="22" height="22" fill="#1a1a1a"/><path d="M198 0h22v22h-22z M199 1v20h20v-20z" fill="#689d6a" fill-rule="evenodd"/></g>
+<rect id="shadow" x="120" y="30" width="22" height="22" fill="none"/>
+</svg>

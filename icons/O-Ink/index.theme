@@ -1,0 +1,24 @@
+[Icon Theme]
+Name=O-Ink
+Comment=Botão de fechar e controles de mídia retos; o resto vem do tema herdado
+Inherits=WhiteSur-dark,hicolor
+FollowsColorScheme=true
+Example=window-close
+Directories=actions/16,actions/22,actions/scalable
+
+[actions/16]
+Size=16
+Context=Actions
+Type=Fixed
+
+[actions/22]
+Size=22
+Context=Actions
+Type=Fixed
+
+[actions/scalable]
+Size=22
+MinSize=8
+MaxSize=512
+Context=Actions
+Type=Scalable

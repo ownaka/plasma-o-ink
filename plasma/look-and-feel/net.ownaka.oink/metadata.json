@@ -1,0 +1,19 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "ownaka",
+        "Email": "jv.prado@tutamail.com"
+      }
+    ],
+    "Category": "",
+    "Description": "Tema global no estilo de ownaka.net: tinta bege sobre papel escuro, Commit Mono e cantos retos.",
+    "Id": "net.ownaka.oink",
+    "License": "MIT",
+    "Name": "O-Ink",
+    "Version": "1.0.0",
+    "Website": "https://ownaka.net"
+  },
+  "X-Plasma-APIVersion": "2"
+}

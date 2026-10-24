@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#e6e1d5;}.ColorScheme-NegativeText{color:#b0675f;}.ColorScheme-Highlight{color:#689d6a;}</style>
+<rect x="4" y="5.5" width="14" height="2.2" class="ColorScheme-Text" fill="currentColor"/>
+<rect x="4" y="9.9" width="14" height="2.2" class="ColorScheme-Text" fill="currentColor"/>
+<rect x="4" y="14.3" width="9" height="2.2" class="ColorScheme-Highlight" fill="currentColor"/>
+</svg>

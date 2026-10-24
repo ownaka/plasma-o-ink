@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="22" viewBox="0 0 120 22">
+<g id="active-center"><rect x="0" y="0" width="22" height="22" fill="none"/><rect x="5.5" y="8.5" width="8" height="8" fill="none" stroke="#e6e1d5" stroke-width="1.4"/><path d="M8.5 5.5 H16.5 V13.5" fill="none" stroke="#e6e1d5" stroke-width="1.4"/></g>
+<g id="hover-center"><rect x="24" y="0" width="22" height="22" fill="#e6e1d5"/><rect x="29.5" y="8.5" width="8" height="8" fill="none" stroke="#0c0c0c" stroke-width="1.4"/><path d="M32.5 5.5 H40.5 V13.5" fill="none" stroke="#0c0c0c" stroke-width="1.4"/></g>
+<g id="pressed-center"><rect x="48" y="0" width="22" height="22" fill="#689d6a"/><rect x="53.5" y="8.5" width="8" height="8" fill="none" stroke="#0c0c0c" stroke-width="1.4"/><path d="M56.5 5.5 H64.5 V13.5" fill="none" stroke="#0c0c0c" stroke-width="1.4"/></g>
+<g id="inactive-center"><rect x="72" y="0" width="22" height="22" fill="none"/><rect x="77.5" y="8.5" width="8" height="8" fill="none" stroke="#888477" stroke-width="1.4"/><path d="M80.5 5.5 H88.5 V13.5" fill="none" stroke="#888477" stroke-width="1.4"/></g>
+<g id="deactivated-center"><rect x="96" y="0" width="22" height="22" fill="none"/><rect x="101.5" y="8.5" width="8" height="8" fill="none" stroke="#524f46" stroke-width="1.4"/><path d="M104.5 5.5 H112.5 V13.5" fill="none" stroke="#524f46" stroke-width="1.4"/></g>
+</svg>

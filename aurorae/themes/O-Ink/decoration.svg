@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="170" viewBox="0 0 40 170">
+<g id="decoration-topleft"><rect x="0" y="0" width="4" height="4" fill="#0c0c0c"/><rect x="0" y="0" width="4" height="1" fill="#2e2e2e"/><rect x="0" y="0" width="1" height="4" fill="#2e2e2e"/></g>
+<g id="decoration-top"><rect x="4" y="0" width="20" height="4" fill="#0c0c0c"/><rect x="4" y="0" width="20" height="1" fill="#2e2e2e"/></g>
+<g id="decoration-topright"><rect x="24" y="0" width="4" height="4" fill="#0c0c0c"/><rect x="24" y="0" width="4" height="1" fill="#2e2e2e"/><rect x="27" y="0" width="1" height="4" fill="#2e2e2e"/></g>
+<g id="decoration-left"><rect x="0" y="4" width="4" height="20" fill="#0c0c0c"/><rect x="0" y="4" width="1" height="20" fill="#2e2e2e"/></g>
+<g id="decoration-center"><rect x="4" y="4" width="20" height="20" fill="#0c0c0c"/></g>
+<g id="decoration-right"><rect x="24" y="4" width="4" height="20" fill="#0c0c0c"/><rect x="27" y="4" width="1" height="20" fill="#2e2e2e"/></g>
+<g id="decoration-bottomleft"><rect x="0" y="24" width="4" height="4" fill="#0c0c0c"/><rect x="0" y="27" width="4" height="1" fill="#2e2e2e"/><rect x="0" y="24" width="1" height="4" fill="#2e2e2e"/></g>
+<g id="decoration-bottom"><rect x="4" y="24" width="20" height="4" fill="#0c0c0c"/><rect x="4" y="27" width="20" height="1" fill="#2e2e2e"/></g>
+<g id="decoration-bottomright"><rect x="24" y="24" width="4" height="4" fill="#0c0c0c"/><rect x="24" y="27" width="4" height="1" fill="#2e2e2e"/><rect x="27" y="24" width="1" height="4" fill="#2e2e2e"/></g>
+<g id="decoration-inactive-topleft"><rect x="0" y="40" width="4" height="4" fill="#0c0c0c"/><rect x="0" y="40" width="4" height="1" fill="#222222"/><rect x="0" y="40" width="1" height="4" fill="#222222"/></g>
+<g id="decoration-inactive-top"><rect x="4" y="40" width="20" height="4" fill="#0c0c0c"/><rect x="4" y="40" width="20" height="1" fill="#222222"/></g>
+<g id="decoration-inactive-topright"><rect x="24" y="40" width="4" height="4" fill="#0c0c0c"/><rect x="24" y="40" width="4" height="1" fill="#222222"/><rect x="27" y="40" width="1" height="4" fill="#222222"/></g>
+<g id="decoration-inactive-left"><rect x="0" y="44" width="4" height="20" fill="#0c0c0c"/><rect x="0" y="44" width="1" height="20" fill="#222222"/></g>
+<g id="decoration-inactive-center"><rect x="4" y="44" width="20" height="20" fill="#0c0c0c"/></g>
+<g id="decoration-inactive-right"><rect x="24" y="44" width="4" height="20" fill="#0c0c0c"/><rect x="27" y="44" width="1" height="20" fill="#222222"/></g>
+<g id="decoration-inactive-bottomleft"><rect x="0" y="64" width="4" height="4" fill="#0c0c0c"/><rect x="0" y="67" width="4" height="1" fill="#222222"/><rect x="0" y="64" width="1" height="4" fill="#222222"/></g>
+<g id="decoration-inactive-bottom"><rect x="4" y="64" width="20" height="4" fill="#0c0c0c"/><rect x="4" y="67" width="20" height="1" fill="#222222"/></g>
+<g id="decoration-inactive-bottomright"><rect x="24" y="64" width="4" height="4" fill="#0c0c0c"/><rect x="24" y="67" width="4" height="1" fill="#222222"/><rect x="27" y="64" width="1" height="4" fill="#222222"/></g>
+<g id="decoration-maximized-topleft"><rect x="0" y="80" width="4" height="4" fill="#0c0c0c"/><rect x="0" y="80" width="4" height="1" fill="#0c0c0c"/><rect x="0" y="80" width="1" height="4" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-top"><rect x="4" y="80" width="20" height="4" fill="#0c0c0c"/><rect x="4" y="80" width="20" height="1" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-topright"><rect x="24" y="80" width="4" height="4" fill="#0c0c0c"/><rect x="24" y="80" width="4" height="1" fill="#0c0c0c"/><rect x="27" y="80" width="1" height="4" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-left"><rect x="0" y="84" width="4" height="20" fill="#0c0c0c"/><rect x="0" y="84" width="1" height="20" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-center"><rect x="4" y="84" width="20" height="20" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-right"><rect x="24" y="84" width="4" height="20" fill="#0c0c0c"/><rect x="27" y="84" width="1" height="20" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-bottomleft"><rect x="0" y="104" width="4" height="4" fill="#0c0c0c"/><rect x="0" y="107" width="4" height="1" fill="#0c0c0c"/><rect x="0" y="104" width="1" height="4" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-bottom"><rect x="4" y="104" width="20" height="4" fill="#0c0c0c"/><rect x="4" y="107" width="20" height="1" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-bottomright"><rect x="24" y="104" width="4" height="4" fill="#0c0c0c"/><rect x="24" y="107" width="4" height="1" fill="#0c0c0c"/><rect x="27" y="104" width="1" height="4" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-inactive-topleft"><rect x="0" y="120" width="4" height="4" fill="#0c0c0c"/><rect x="0" y="120" width="4" height="1" fill="#0c0c0c"/><rect x="0" y="120" width="1" height="4" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-inactive-top"><rect x="4" y="120" width="20" height="4" fill="#0c0c0c"/><rect x="4" y="120" width="20" height="1" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-inactive-topright"><rect x="24" y="120" width="4" height="4" fill="#0c0c0c"/><rect x="24" y="120" width="4" height="1" fill="#0c0c0c"/><rect x="27" y="120" width="1" height="4" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-inactive-left"><rect x="0" y="124" width="4" height="20" fill="#0c0c0c"/><rect x="0" y="124" width="1" height="20" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-inactive-center"><rect x="4" y="124" width="20" height="20" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-inactive-right"><rect x="24" y="124" width="4" height="20" fill="#0c0c0c"/><rect x="27" y="124" width="1" height="20" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-inactive-bottomleft"><rect x="0" y="144" width="4" height="4" fill="#0c0c0c"/><rect x="0" y="147" width="4" height="1" fill="#0c0c0c"/><rect x="0" y="144" width="1" height="4" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-inactive-bottom"><rect x="4" y="144" width="20" height="4" fill="#0c0c0c"/><rect x="4" y="147" width="20" height="1" fill="#0c0c0c"/></g>
+<g id="decoration-maximized-inactive-bottomright"><rect x="24" y="144" width="4" height="4" fill="#0c0c0c"/><rect x="24" y="147" width="4" height="1" fill="#0c0c0c"/><rect x="27" y="144" width="1" height="4" fill="#0c0c0c"/></g>
+</svg>

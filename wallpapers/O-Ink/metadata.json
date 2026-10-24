@@ -1,0 +1,12 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "ownaka"
+      }
+    ],
+    "Id": "O-Ink",
+    "License": "MIT",
+    "Name": "O-Ink"
+  }
+}

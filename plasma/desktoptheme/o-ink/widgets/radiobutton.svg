@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="266" height="40" viewBox="0 0 266 40">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#e6e1d5;}.ColorScheme-NegativeText{color:#b0675f;}.ColorScheme-Highlight{color:#689d6a;}</style>
+<rect id="hint-size" x="120" y="0" width="16" height="16" fill="none"/>
+<g id="normal"><rect x="140" y="0" width="16" height="16" fill="#1a1a1a"/><path d="M140 0h16v16h-16z M141 1v14h14v-14z" fill="#2e2e2e" fill-rule="evenodd"/></g>
+<rect id="shadow" x="160" y="0" width="16" height="16" fill="none"/>
+<g id="checked"><rect x="180" y="0" width="16" height="16" fill="#1e261e"/><path d="M180 0h16v16h-16z M181 1v14h14v-14z" fill="#689d6a" fill-rule="evenodd"/></g>
+<g id="hover"><rect x="200" y="0" width="16" height="16" fill="none"/><path d="M200 0h16v16h-16z M201 1v14h14v-14z" fill="#888477" fill-rule="evenodd"/></g>
+<g id="focus"><rect x="220" y="0" width="16" height="16" fill="none"/><path d="M220 0h16v16h-16z M221 1v14h14v-14z" fill="#689d6a" fill-rule="evenodd"/></g>
+<g id="symbol"><rect x="240" y="0" width="16" height="16" fill="none"/><rect x="245" y="5" width="6" height="6" fill="#689d6a"/></g>
+</svg>

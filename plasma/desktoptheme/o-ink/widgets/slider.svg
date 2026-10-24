@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="286" height="108" viewBox="0 0 286 108">
+<style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#e6e1d5;}.ColorScheme-NegativeText{color:#b0675f;}.ColorScheme-Highlight{color:#689d6a;}</style>
+<g id="groove-topleft"><rect x="0" y="0" width="2" height="2" fill="#2e2e2e"/></g>
+<g id="groove-topright"><rect x="22" y="0" width="2" height="2" fill="#2e2e2e"/></g>
+<g id="groove-bottomleft"><rect x="0" y="22" width="2" height="2" fill="#2e2e2e"/></g>
+<g id="groove-bottomright"><rect x="22" y="22" width="2" height="2" fill="#2e2e2e"/></g>
+<g id="groove-top"><rect x="2" y="0" width="20" height="2" fill="#2e2e2e"/></g>
+<g id="groove-bottom"><rect x="2" y="22" width="20" height="2" fill="#2e2e2e"/></g>
+<g id="groove-left"><rect x="0" y="2" width="2" height="20" fill="#2e2e2e"/></g>
+<g id="groove-right"><rect x="22" y="2" width="2" height="20" fill="#2e2e2e"/></g>
+<rect id="groove-center" x="2" y="2" width="20" height="20" fill="#2e2e2e" />
+<rect id="groove-hint-top-margin" x="60" y="2" width="2" height="2" fill="none" />
+<rect id="groove-hint-bottom-margin" x="60" y="2" width="2" height="2" fill="none" />
+<rect id="groove-hint-left-margin" x="60" y="2" width="2" height="2" fill="none" />
+<rect id="groove-hint-right-margin" x="60" y="2" width="2" height="2" fill="none" />
+<g id="groove-highlight-topleft"><rect x="0" y="34" width="2" height="2" fill="#689d6a"/></g>
+<g id="groove-highlight-topright"><rect x="22" y="34" width="2" height="2" fill="#689d6a"/></g>
+<g id="groove-highlight-bottomleft"><rect x="0" y="56" width="2" height="2" fill="#689d6a"/></g>
+<g id="groove-highlight-bottomright"><rect x="22" y="56" width="2" height="2" fill="#689d6a"/></g>
+<g id="groove-highlight-top"><rect x="2" y="34" width="20" height="2" fill="#689d6a"/></g>
+<g id="groove-highlight-bottom"><rect x="2" y="56" width="20" height="2" fill="#689d6a"/></g>
+<g id="groove-highlight-left"><rect x="0" y="36" width="2" height="20" fill="#689d6a"/></g>
+<g id="groove-highlight-right"><rect x="22" y="36" width="2" height="20" fill="#689d6a"/></g>
+<rect id="groove-highlight-center" x="2" y="36" width="20" height="20" fill="#689d6a" />
+<rect id="groove-highlight-hint-top-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="groove-highlight-hint-bottom-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="groove-highlight-hint-left-margin" x="60" y="36" width="2" height="2" fill="none" />
+<rect id="groove-highlight-hint-right-margin" x="60" y="36" width="2" height="2" fill="none" />
+<g id="horizontal-slider-handle"><rect x="120" y="0" width="16" height="16" fill="#e6e1d5"/></g>
+<g id="horizontal-slider-hover"><rect x="140" y="0" width="16" height="16" fill="none"/><path d="M140 0h16v16h-16z M141 1v14h14v-14z" fill="#689d6a" fill-rule="evenodd"/></g>
+<g id="horizontal-slider-focus"><rect x="160" y="0" width="16" height="16" fill="none"/><path d="M160 0h16v16h-16z M162 2v12h12v-12z" fill="#689d6a" fill-rule="evenodd"/></g>
+<rect id="horizontal-slider-shadow" x="180" y="0" width="16" height="16" fill="none"/>
+<g id="vertical-slider-handle"><rect x="200" y="0" width="16" height="16" fill="#e6e1d5"/></g>
+<g id="vertical-slider-hover"><rect x="220" y="0" width="16" height="16" fill="none"/><path d="M220 0h16v16h-16z M221 1v14h14v-14z" fill="#689d6a" fill-rule="evenodd"/></g>
+<g id="vertical-slider-focus"><rect x="240" y="0" width="16" height="16" fill="none"/><path d="M240 0h16v16h-16z M242 2v12h12v-12z" fill="#689d6a" fill-rule="evenodd"/></g>
+<rect id="vertical-slider-shadow" x="260" y="0" width="16" height="16" fill="none"/>
+<rect id="hint-handle-size" x="120" y="30" width="16" height="16" fill="none"/>
+</svg>
